@@ -20,7 +20,7 @@ public class Adventurer
 		Console.WriteLine("Adventurer: " + this.name + " - " + this.experience + " EXP");
 	}
 
-	public void reset()
+	public void Reset()
 	{
 		this.name = "Not Assigned";
 		this.experience = 0;

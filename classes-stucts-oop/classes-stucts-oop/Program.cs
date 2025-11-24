@@ -95,6 +95,9 @@
             warBow.PrintWeaponStats();
 
             Paladin knight = new Paladin("Sir Arthur", huntingBow);
+
+            Adventurer mike = new Adventurer("Mike");
+            mike.PrintStatsInfo();
         }
     }
 }
