@@ -21,6 +21,17 @@
             {
                 Console.WriteLine("Hero: " + this.name + " - " + this.exp + " EXP");
             }
+
+            private void Reset()
+            {
+                this.name = "Not assigned";
+                this.exp = 0;
+            }
+        }
+
+        public class Paladin : Character
+        {
+
         }
 
         public struct Weapon
