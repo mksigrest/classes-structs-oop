@@ -51,6 +51,12 @@
 
             Weapon huntingBow = new Weapon("Hunting Bow", 105);
             huntingBow.PrintWeaponStats();
+
+            //Testing reference types
+            Character villian = hero;
+
+            hero.PrintStatsInfo();
+            villian.PrintStatsInfo();
         }
     }
 }
