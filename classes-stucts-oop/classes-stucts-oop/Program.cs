@@ -16,13 +16,21 @@
             {
                 this.name = name;
             }
+
+            public void PrintStatsInfo()
+            {
+                Console.WriteLine("Hero: " + this.name + " - " + this.exp + " EXP");
+            }
         }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
 
             Character hero = new Character();
-            Console.WriteLine("Hero: " + hero.name + " - " + hero.exp + " EXP");
+            hero.PrintStatsInfo();
+
+            Character heroine = new Character("Agatha");
+            heroine.PrintStatsInfo();
         }
     }
 }
