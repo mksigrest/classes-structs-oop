@@ -1,4 +1,6 @@
-﻿namespace classes_structs_oop
+﻿using classes_stucts_oop;
+
+namespace classes_structs_oop
 {
     internal class Program
     {
@@ -98,6 +100,9 @@
 
             Adventurer mike = new Adventurer("Mike");
             mike.PrintStatsInfo();
+
+            Dude dave = new Dude("Dave");
+            dave.PrintStatsInfo();
         }
     }
 }
