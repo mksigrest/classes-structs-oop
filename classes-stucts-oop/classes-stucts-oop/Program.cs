@@ -57,6 +57,11 @@
 
             hero.PrintStatsInfo();
             villian.PrintStatsInfo();
+
+            villian.name = "Sir Kane the Brave";
+
+            hero.PrintStatsInfo();
+            villian.PrintStatsInfo();
         }
     }
 }
