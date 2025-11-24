@@ -31,7 +31,12 @@
 
         public class Paladin : Character
         {
+            public Weapon weapon;
 
+            public Paladin(string name, Weapon weapon) : base(name)
+            {
+                this.weapon = weapon;
+            }
         }
 
         public struct Weapon
@@ -83,6 +88,8 @@
 
             huntingBow.PrintWeaponStats();
             warBow.PrintWeaponStats();
+
+            Paladin knight = new Paladin("Sir Arthur", huntingBow);
         }
     }
 }
