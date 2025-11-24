@@ -6,6 +6,16 @@
         {
             public string name;
             public int exp;
+
+            public Character()
+            {
+                name = "Not assigned";
+            }
+
+            public Character(string name)
+            {
+                this.name = name;
+            }
         }
         static void Main(string[] args)
         {
