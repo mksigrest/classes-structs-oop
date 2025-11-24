@@ -62,6 +62,16 @@
 
             hero.PrintStatsInfo();
             villian.PrintStatsInfo();
+
+            Weapon warBow = huntingBow;
+            huntingBow.PrintWeaponStats();
+            warBow.PrintWeaponStats();
+
+            warBow.name = "War Bow";
+            warBow.damage = 155;
+
+            huntingBow.PrintWeaponStats();
+            warBow.PrintWeaponStats();
         }
     }
 }
